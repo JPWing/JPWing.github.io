@@ -68,7 +68,7 @@ h1{
 }
 
 .dropdown-content a {
-    float: right;
+    float: left;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
