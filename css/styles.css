@@ -1,8 +1,7 @@
 body{
-    width: 1920px;
+    width:100%;
     margin:auto;
-    background: url("../assets/Background.jpg") no-repeat;
-    height: 1080px;
+    background-image: url("../assets/Background.jpg");
     font-family: "Friz Quadrata Std";
 }
 
