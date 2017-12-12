@@ -3,7 +3,6 @@ body{
     margin:auto;
     background: url("../assets/Background.jpg") no-repeat;
     height: 1080px;
-    background-attachment: fixed;
     font-family: "Friz Quadrata Std";
 }
 
