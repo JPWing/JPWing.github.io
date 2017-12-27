@@ -4,6 +4,7 @@ body{
     background: url("../assets/Background.jpg") no-repeat center center fixed;
     background-size: cover;
     font-family: "Friz Quadrata Std";
+    color: white;
 }
 
 header{
@@ -44,9 +45,7 @@ header{
 }
 
 h1{
-    color: #fff651;
     -webkit-text-stroke: 2px black;
-    text-align: center;
 }
 
 .dropimg{
@@ -89,21 +88,13 @@ h1{
     position: relative;
 }
 
-.column{
-    float: left;
-    width: 23%;
-    padding: 10px;
+.champions{
+    color: white;
+    text-align: center;
 }
 
-.column img{
-    margin-top: 10px;
-    witdth: 100%;
-}
-
-.row:after{
-    content: "";
-    display: table;
-    clear: both;
+.title_img{
+    text-align: center;
 }
 
 @media (max-width: 800px){
