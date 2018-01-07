@@ -45,6 +45,7 @@ header{
 }
 
 h1{
+    color: white;
     -webkit-text-stroke: 2px black;
 }
 
@@ -55,7 +56,7 @@ h1{
 }
 
 .dropdown {
-    position: relative;
+    position: absolute;
     display: inline-block;
 }
 
@@ -89,7 +90,6 @@ h1{
 }
 
 .champions{
-    color: white;
     text-align: center;
 }
 
@@ -98,6 +98,10 @@ h1{
 }
 
 .title_img{
+    text-align: center;
+}
+
+.lanes{
     text-align: center;
 }
 
