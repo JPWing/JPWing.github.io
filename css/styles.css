@@ -152,6 +152,86 @@ img{
     display: inline-block;
 }
 
+.champion1{
+    background-color: rgba(80,80,80, 0.7);
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.champion2{
+    background-color: rgba(80,80,80, 0.7);
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.champion3{
+    background-color: rgba(80,80,80, 0.7);
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.champion4{
+    background-color: rgba(80,80,80, 0.7);
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.champion5{
+    background-color: rgba(80,80,80, 0.7);
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.champion6{
+    background-color: rgba(80,80,80, 0.7);
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.champion7{
+    background-color: rgba(80,80,80, 0.7);
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.champion8{
+    background-color: rgba(80,80,80, 0.7);
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.champion9{
+    background-color: rgba(80,80,80, 0.7);
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.champion10{
+    background-color: rgba(80,80,80, 0.7);
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px;
+}
+
 @media (max-width: 800px){
 
 }

@@ -15,7 +15,7 @@ window.onclick = function(event) {
             }
         }
     }
-}
+};
 
 $("#theme1").click(function(){
     $('body').css("background", 'url("assets/background1") no-repeat center center fixed')
