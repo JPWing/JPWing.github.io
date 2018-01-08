@@ -17,21 +17,21 @@ window.onclick = function(event) {
     }
 };
 
-$("#theme1").click(function(){
+$(".theme1").click(function(){
     $('body').css("background", 'url("assets/background1") no-repeat center center fixed')
     loadpage(currentpage, 1);
 
     currentpage = 1;
 });
 
-$("#theme2").click(function(){
+$(".theme2").click(function(){
     $('body').css("background", 'url("assets/background2") no-repeat center center fixed')
     loadpage(currentpage, 1);
 
     currentpage = 1;
 });
 
-$("#theme3").click(function(){
+$(".theme3").click(function(){
     $('body').css("background", 'url("assets/background3") no-repeat center center fixed')
     loadpage(currentpage, 1);
 

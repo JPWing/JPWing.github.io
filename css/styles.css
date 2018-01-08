@@ -13,8 +13,6 @@ header{
     position: static;
     border-bottom: thick solid white;
     overflow: hidden;
-    position: -webkit-sticky;
-    position: sticky;
 }
 
 .logo{
