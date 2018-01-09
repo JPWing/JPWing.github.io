@@ -20,21 +20,25 @@ window.onclick = function(event) {
 $(document).ready(function(){
     $(".theme0").click(function(){
         $('body').css("background", 'url("assets/Background.jpg") no-repeat center center fixed');
+        $('body').css("background-size", 'cover');
         console.log("This works 0");
     });
 
     $(".theme1").click(function(){
         $('body').css("background", 'url("assets/Background1.jpg") no-repeat center center fixed');
+        $('body').css("background-size", 'cover');
         console.log("This works 1");
     });
 
     $(".theme2").click(function(){
         $('body').css("background", 'url("assets/Background2.jpg") no-repeat center center fixed');
+        $('body').css("background-size", 'cover');
         console.log("This works 2");
     });
 
     $(".theme3").click(function(){
         $('body').css("background", 'url("assets/Background3.jpg") no-repeat center center fixed');
+        $('body').css("background-size", 'cover');
         console.log("This works 3");
     });
 });
