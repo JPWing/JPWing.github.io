@@ -163,8 +163,40 @@ img{
     display: inline-block;
 }
 
+.top_lane{
+    background-color: rgba(80,80,80,0.7);
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.jungle{
+    background-color: rgba(80,80,80,0.7);
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.mid_lane{
+    background-color: rgba(80,80,80,0.7);
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.bot_lane{
+    background-color: rgba(80,80,80,0.7);
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px;
+}
+
 .champion1{
-    background-color: rgba(80,80,80, 0.7);
+    background-color: rgba(80,80,80,0.7);
     border: 3px solid black;
     border-radius: 25px;
     padding: 15px;
@@ -172,7 +204,7 @@ img{
 }
 
 .champion2{
-    background-color: rgba(80,80,80, 0.7);
+    background-color: rgba(80,80,80,0.7);
     border: 3px solid black;
     border-radius: 25px;
     padding: 15px;
