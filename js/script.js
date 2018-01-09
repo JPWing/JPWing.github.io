@@ -17,23 +17,19 @@ window.onclick = function(event) {
     }
 };
 
-$(".theme1").click(function(){
-    $('body').css("background", 'url("assets/background1") no-repeat center center fixed')
-    loadpage(currentpage, 1);
+$(document).ready(function(){
+    $(".theme1").click(function(){
+        $('body').css("background", 'url("assets/Background1.jpg") no-repeat center center fixed');
+        console.log("This works 1");
+    });
 
-    currentpage = 1;
-});
+    $(".theme2").click(function(){
+        $('body').css("background", 'url("assets/Background2.jpg") no-repeat center center fixed');
+        console.log("This works 2");
+    });
 
-$(".theme2").click(function(){
-    $('body').css("background", 'url("assets/background2") no-repeat center center fixed')
-    loadpage(currentpage, 1);
-
-    currentpage = 1;
-});
-
-$(".theme3").click(function(){
-    $('body').css("background", 'url("assets/background3") no-repeat center center fixed')
-    loadpage(currentpage, 1);
-
-    currentpage = 1;
+    $(".theme3").click(function(){
+        $('body').css("background", 'url("assets/Background3.jpg") no-repeat center center fixed');
+        console.log("This works 3");
+    });
 });
