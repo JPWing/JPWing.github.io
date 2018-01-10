@@ -17,36 +17,95 @@ window.onclick = function(event) {
     }
 };
 
-$(document).ready(function(){
-    $(".theme0").click(function(){
-        $('body').css("background", 'url("assets/Background.jpg") no-repeat center center fixed');
-        $('body').css("background-size", 'cover');
-        $('body').css("width", '100%');
-        $('body').css("margin", 'auto');
-        console.log("This works 0");
-    });
+
+
+$(function(){
+    init();
+
+    console.log("Ready")
 
     $(".theme1").click(function(){
-        $('body').css("background", 'url("assets/Background1.jpg") no-repeat center center fixed');
-        $('body').css("background-size", 'cover');
-        $('body').css("width", '100%');
-        $('body').css("margin", 'auto');
-        console.log("This works 1");
+        settheme(1);
+        localStorage.setItem("themestore", "1");
+        currenttheme = 1;
     });
 
     $(".theme2").click(function(){
-        $('body').css("background", 'url("assets/Background2.jpg") no-repeat center center fixed');
-        $('body').css("background-size", 'cover');
-        $('body').css("width", '100%');
-        $('body').css("margin", 'auto');
-        console.log("This works 2");
+        settheme(2);
+        localStorage.setItem("themestore", "2");
+        currenttheme = 2;
     });
-
     $(".theme3").click(function(){
-        $('body').css("background", 'url("assets/Background3.jpg") no-repeat center center fixed');
-        $('body').css("background-size", 'cover');
-        $('body').css("width", '100%');
-        $('body').css("margin", 'auto');
-        console.log("This works 3");
+        settheme(3);
+        localStorage.setItem("themestore", "3");
+        currenttheme = 3;
     });
-});
+    $(".theme0").click(function(){
+        settheme(4);
+        localStorage.setItem("themestore", "4");
+        currenttheme = 4;
+    });
+})
+
+function init(){
+    var img1 = new Image();
+    var img2 = new Image();
+    var img3 = new Image();
+    var img4 = new Image();
+
+    img1.src = 'assets/Background1.jpg';
+    img2.src = 'assets/Background2.png';
+    img3.src = 'assets/Background3.jpg';
+    img4.src = 'assets/Background.jpg';
+    if (typeof(Storage) !== "undefined") {
+        currenttheme = parseInt(localStorage.getItem("themestore"));
+        if (localStorage.getItem("themestore") === null)
+        {
+            settheme(1);
+            currenttheme = 1;
+        }
+        else
+        {
+            settheme(currenttheme);
+        }
+    } else {
+        console.log("This browser does not support local storage!");
+    }
+}
+
+function settheme(theme){
+    switch(theme)
+    {
+        case 1:
+            $('body').css("background", 'url("assets/Background1.jpg") no-repeat center center fixed');
+            $('body').css("background-size", 'cover');
+            $('body').css("width", '100%');
+            $('body').css("margin", 'auto');
+            console.log("This works 1");
+            break;
+
+        case 2:
+            $('body').css("background", 'url("assets/Background2.jpg") no-repeat center center fixed');
+            $('body').css("background-size", 'cover');
+            $('body').css("width", '100%');
+            $('body').css("margin", 'auto');
+            console.log("This works 2");
+            break;
+
+        case 3:
+            $('body').css("background", 'url("assets/Background2.jpg") no-repeat center center fixed');
+            $('body').css("background-size", 'cover');
+            $('body').css("width", '100%');
+            $('body').css("margin", 'auto');
+            console.log("This works 3");
+            break;
+
+        case 4:
+            $('body').css("background", 'url("assets/Background3.jpg") no-repeat center center fixed');
+            $('body').css("background-size", 'cover');
+            $('body').css("width", '100%');
+            $('body').css("margin", 'auto');
+            console.log("This works 4");
+            break;
+    }
+}
