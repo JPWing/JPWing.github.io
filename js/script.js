@@ -93,7 +93,7 @@ function settheme(theme){
             break;
 
         case 3:
-            $('body').css("background", 'url("assets/Background2.jpg") no-repeat center center fixed');
+            $('body').css("background", 'url("assets/Background3.jpg") no-repeat center center fixed');
             $('body').css("background-size", 'cover');
             $('body').css("width", '100%');
             $('body').css("margin", 'auto');
@@ -101,7 +101,7 @@ function settheme(theme){
             break;
 
         case 4:
-            $('body').css("background", 'url("assets/Background3.jpg") no-repeat center center fixed');
+            $('body').css("background", 'url("assets/Background.jpg") no-repeat center center fixed');
             $('body').css("background-size", 'cover');
             $('body').css("width", '100%');
             $('body').css("margin", 'auto');
